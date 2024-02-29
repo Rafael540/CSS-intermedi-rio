@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (static e relative, absolut e fixed )</title>
+    <style type="text/css">
+
+        body{
+            background:#007fc7;
+        }
+       
+
+        p{
+            width:400px;
+            
+        }
+
+        #container{
+            background:#fff ;
+            width:800px;
+            margin: 10px auto;
+            padding: 10px;
+            position: relative;
+
+        }
+        .relative{
+            border: 1px solid red;
+            position: relative;
+            /*top, right, bottom e left*/
+            top: 10px;
+            left: 100px;
+        }
+
+        .absolute{
+            position: absolute;
+            border: 1px solid red;
+            background:#f2f2f2;
+            top: 80px;
+            right: 80px;
+        }
+
+        .fixed{
+            position: fixed;
+            border: 1px solid red;
+            background:#f2f2f2;
+            top: 0px;
+            right: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Posicionamentos</h1>
+
+        <p>
+            
+        P1 Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet    
+        </p>
+
+        <p class="fixed">
+        P2 Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet    
+        </p>
+
+        <p>
+        P3 Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet    
+        </p>
+
+        <p>
+        P3 Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet    
+        </p>
+        
+        <p>
+        P3 Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet
+        Lorem impum dolor sit amet, Lorem impum dolor sit amet    
+        </p>
+
+    </div>
+    
+</body>
+</html>
